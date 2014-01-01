@@ -3,6 +3,9 @@ kokevision
 
 Processing sketch that generate delaunay visualizations from computer vision blob tracking
 
+- [webcam branch](https://github.com/sulram/kokevision/tree/master)
+- [kinect branch](https://github.com/sulram/kokevision/tree/kinect)
+
 ## Usage
 
 ### Required libs
