@@ -106,14 +106,14 @@ void drawShapes(boolean drawBlobs, boolean drawEdges, boolean drawMeshes, boolea
           mypoints[k][1] = (startY+endY)*.5;
           if (drawAttractors){
             float dist = sqrt(dist_x*dist_x+dist_y*dist_y)*.5;
-            ellipse(mypoints[k][0], mypoints[k][1], dist, dist);
+            ellipse(mypoints[k][0], mypoints[k][1], dist*.5, dist*.5);
           }
           k++;
         }
         
       }
 
-      
+       
       // Blobs
       if (drawBlobs)
       {
